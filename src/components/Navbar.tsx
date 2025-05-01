@@ -15,10 +15,10 @@ const Navbar = () => {
             <Link to="/" className="flex items-center">
               <img 
                 src="/logo-b.svg" 
-                alt="Айкидо Центр" 
-                className="h-8 w-auto"
+                alt="Международные Игры Айкидо" 
+                className="h-10 w-auto"
               />
-              <span className="ml-2 text-xl font-semibold text-primary">Айкидо Центр</span>
+              <span className="ml-2 text-xl font-semibold text-primary">Игры Айкидо</span>
             </Link>
           </div>
           
@@ -27,18 +27,18 @@ const Navbar = () => {
               Главная
             </Link>
             <Link to="/#about" className="text-gray-700 hover:text-primary transition-colors">
-              О нас
+              О событии
             </Link>
-            <Link to="/#plans" className="text-gray-700 hover:text-primary transition-colors">
-              Абонементы
+            <Link to="/#schedule" className="text-gray-700 hover:text-primary transition-colors">
+              Программа
             </Link>
-            <Link to="/#testimonials" className="text-gray-700 hover:text-primary transition-colors">
-              Отзывы
+            <Link to="/#participants" className="text-gray-700 hover:text-primary transition-colors">
+              Участники
             </Link>
-            <Link to="/#contact" className="text-gray-700 hover:text-primary transition-colors">
-              Контакты
+            <Link to="/#gallery" className="text-gray-700 hover:text-primary transition-colors">
+              Галерея
             </Link>
-            <Button>Записаться</Button>
+            <Button>Регистрация</Button>
           </div>
 
           <div className="md:hidden">
@@ -68,30 +68,30 @@ const Navbar = () => {
               className="block py-2 text-gray-700 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
-              О нас
+              О событии
             </Link>
             <Link 
-              to="/#plans" 
+              to="/#schedule" 
               className="block py-2 text-gray-700 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
-              Абонементы
+              Программа
             </Link>
             <Link 
-              to="/#testimonials" 
+              to="/#participants" 
               className="block py-2 text-gray-700 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
-              Отзывы
+              Участники
             </Link>
             <Link 
-              to="/#contact" 
+              to="/#gallery" 
               className="block py-2 text-gray-700 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
-              Контакты
+              Галерея
             </Link>
-            <Button className="w-full mt-2">Записаться</Button>
+            <Button className="w-full mt-2">Регистрация</Button>
           </div>
         </div>
       )}

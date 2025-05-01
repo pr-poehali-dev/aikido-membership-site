@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
-import Icon from '@/components/ui/Icon';
+import Icon from './ui/icon';
+
 
 const Footer = () => {
   return (
